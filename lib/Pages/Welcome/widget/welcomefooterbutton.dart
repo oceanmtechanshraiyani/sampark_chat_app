@@ -13,6 +13,7 @@ class Welcomefooterbutton extends StatelessWidget {
     return Column(
       children: [
         SlideAction(
+          // ignore: body_might_complete_normally_nullable
           onSubmit: () {
             Get.offAllNamed("/authPage");
           },
